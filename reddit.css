@@ -81,13 +81,13 @@ body {
 }
 
 a:link {
-  color: #ead7ac;
+  color: #5e97ce;
 }
 
 /* unvisited link */
 
 a:visited {
-  color: #ead7ac;
+  color: #5e97ce;
 }
 
 /* visited link */
@@ -206,6 +206,11 @@ div.titlebox span.number:after {
   text-transform: uppercase;
   padding-bottom: 20px;
   padding-top: 20px;
+  color: #ead7ac;
+}
+
+#header-bottom-left .redditname a:hover {
+  color: #4a8aca;
 }
 
 #header-bottom-left .redditname {
@@ -230,6 +235,10 @@ div.titlebox span.number:after {
   border-bottom: 0
 }
 
+a.subbarlink {
+  color: #ead7ac;
+}
+
 .link {
   margin-bottom: 10px;
   margin-right: 10 px;
@@ -242,7 +251,7 @@ div.titlebox span.number:after {
 }
 
 .tabmenu li {
-  margin: 0 1px
+  margin: 0 3px
 }
 
 .tabmenu li a {
@@ -268,18 +277,19 @@ div.titlebox span.number:after {
 .tabmenu li a:hover,
 .tabmenu li a:focus {
   background-color: #6097CB;
-  color: #d5cd72;
+  color: #ead7ac;
   border: none
 }
 
 .tabmenu {
-  margin: 5px 0 0px -20px !important;
-  padding-bottom: 0px text-transform: uppercase;
+  margin: 0px 0px -3px -20px!important;
+  padding-bottom: 0px;
+  text-transform: uppercase;
 }
 
-
-
-
+.res-tabmenu-button {
+  display: none!important;
+}
 
 
 /* ===== Table formatting ===== */

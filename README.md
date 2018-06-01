@@ -2,7 +2,9 @@
 
 ## TODO
 ### CSS
-* Update /r/PhillyUnion link at top
+* ~~Update /r/PhillyUnion link at top~~
+* ~~Fix bright yellow links~~
+* ~~Fix tab menu~~
 * Fix the sidebar hover bar things
 * Center user flairs
 * Update link flairs
@@ -13,4 +15,3 @@
 * Create/update form
 * Update roster
 * Update side images
-
