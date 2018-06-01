@@ -9,221 +9,273 @@ Side Bar: #28292D
 
 */
 
-
 /* Link Flair Colors */
 
 a[href*="free_talk_friday"].title:link {
-    color: #b39700;
-    font-weight:bold;
+  color: #b39700;
+  font-weight: bold;
 }
+
 a[href*="free_talk_friday"].title:visited {
-    color: #b39700 !important;
-    font-weight:bold;
+  color: #b39700 !important;
+  font-weight: bold;
 }
 
 a[href*="thread"].title:link {
-    color: #000;
-    font-weight:bold;
+  color: #000;
+  font-weight: bold;
 }
 
 a[href*="thread"].title:visited {
-    color: #000 !important;
-    font-weight:bold;
+  color: #000 !important;
+  font-weight: bold;
 }
 
 
 a[href*="pre_match"].title:link {
-    color: #000;
-    font-weight:bold;
+  color: #000;
+  font-weight: bold;
 }
 
 a[href*="pre_match"].title:visited {
-    color: #000 !important;
-    font-weight:bold;
+  color: #000 !important;
+  font-weight: bold;
 }
 
 a[href*="post_match"].title:link {
-    color: #000;
-    font-weight:bold;
+  color: #000;
+  font-weight: bold;
 }
+
 a[href*="post_match"].title:visited {
-    color: #000 !important;
-    font-weight:bold;
+  color: #000 !important;
+  font-weight: bold;
 }
+
 a[href*="fantasy_talk_tuesday"].title:link {
-    color: #b39700;
-    font-weight:bold;
+  color: #b39700;
+  font-weight: bold;
 }
+
 a[href*="fantasy_talk_tuesday"].title:visited {
-    color: #b39700 !important;
-    font-weight:bold;
+  color: #b39700 !important;
+  font-weight: bold;
 }
 
 a[href*="match thread"].title:link {
-    color: #b00;
-    font-weight:bold;
+  color: #b00;
+  font-weight: bold;
 }
+
 a[href*="match thread"].title:visited {
-    color: #b00 !important;
-    font-weight:bold;
+  color: #b00 !important;
+  font-weight: bold;
 }
 
 
 
 /**********TEXT*************/
-body{
-color: #021f42;
+
+body {
+  color: #021f42;
 }
 
-a:link {color:#ead7ac;}      /* unvisited link */
-a:visited {color:#ead7ac;}  /* visited link */
-a:hover {color:#5087bf;}  /* mouse over link */
-a:active {color:#5087bf;}  /* selected link */ 
-.comment .md a {color:#9D7E40;}
+a:link {
+  color: #ead7ac;
+}
 
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {text-decoration:none;}
-a:active {text-decoration:underline;}
+/* unvisited link */
+
+a:visited {
+  color: #ead7ac;
+}
+
+/* visited link */
+
+a:hover {
+  color: #5087bf;
+}
+
+/* mouse over link */
+
+a:active {
+  color: #5087bf;
+}
+
+/* selected link */
+
+.comment .md a {
+  color: #9D7E40;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
 
 
-.flat-list a{color:#5087bf!important;}
+.flat-list a {
+  color: #5087bf!important;
+}
 
-hr {color: #5087bf;
-    background-color: #5087bf;
-    height: 2px;}
+hr {
+  color: #5087bf;
+  background-color: #5087bf;
+  height: 2px;
+}
 
 
 
 #search input[type="text"] {
-    bottom: 15px !important;
-    z-index: 100 !important;
-    font-size: 14px !important;
-    border: 2px solid #5087bf!important;
-    margin-top: 0px;
+  bottom: 15px !important;
+  z-index: 100 !important;
+  font-size: 14px !important;
+  border: 2px solid #5087bf!important;
+  margin-top: 0px;
 }
 
 
 
 
 
-/*****replace "readers" with something else*****/  
-div.titlebox span.word {  
-display: none  
-}  
-div.titlebox span.number:after {  
-content: " Supporters"  
-}  
+/*****replace "readers" with something else*****/
+
+div.titlebox span.word {
+  display: none
+}
+
+div.titlebox span.number:after {
+  content: " Supporters"
+}
 
 
 /**********HEADER************/
 
-#sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-color: #6097CB !important;
-font-weight: bold;
+#sr-header-area a.RESShortcutsCurrentSub,
+#RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
+  color: #6097CB !important;
+  font-weight: bold;
 
 }
 
 
 #sr-header-area {
-    background-color: #18262E;
-    color: #FFFFFF;
-    white-space: nowrap;
-    text-transform: uppercase;
-    border-bottom: 0px solid #808080;
-    font-size: 90%;
-    height: 18px;
-    line-height: 18px; 
-    padding-left: 0px;
+  background-color: #18262E;
+  color: #FFFFFF;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-bottom: 0px solid #808080;
+  font-size: 90%;
+  height: 18px;
+  line-height: 18px;
+  padding-left: 0px;
 
 }
 
 
 #header {
-    background-image: url(%%NavigationBar%%);
-    background-color:#4f91cd;
-    background-repeat: no;
-    height: 200px;
-    border-bottom: none; /*0px solid #6097CB;*/
+  background-image: url(%%NavigationBar%%);
+  background-color: #4f91cd;
+  background-repeat: no;
+  height: 200px;
+  border-bottom: none;
+  /*0px solid #6097CB;*/
+}
+
+#header-bottom-left .redditname a::before {
+  content: '/r/';
 }
 
 #header-bottom-left .redditname a {
-        padding-top: 30px;
-	position: absolute;
-	display: inline-block;
-	margin-top: 40px;
-	margin-left: 10px;
-	width: 350px;
-	height: 50px;
-	background-image: url(%%rPhillyUnionGold%%);
-	background-repeat: no-repeat;
-	text-indent: -9999px;
-}
-
-#header-bottom-left .redditname a:hover {
-	background-image: url(%%rPhillyUnionBlue%%);
+  position: absolute;
+  bottom: 75px;
+  padding-left: 20px;
+  font-size: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #header-bottom-left .redditname {
-	color: #15212f;
+  color: #15212f;
 }
 
 #header-bottom-left .tabmenu {
-    margin-left: 50px
-    }
+  margin-left: 50px
+}
+
 #header-img {
-    margin: 10px 0 -5px 5px
-    }
+  margin: 10px 0 -5px 5px
+}
+
 #header-bottom-right {
-    background: #ead7ac;
-    padding: 4px 8px;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border: 1px dotted #5087bf;
-    border-bottom: 0
-    }
+  background: #ead7ac;
+  padding: 4px 8px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border: 1px dotted #5087bf;
+  border-bottom: 0
+}
+
 .link {
-    margin-bottom: 10px;
-    margin-right: 10 px;
-    padding: 8px;
-    border: 1px dashed #9D7E40
-    }
+  margin-bottom: 10px;
+  margin-right: 10 px;
+  padding: 8px;
+  border: 1px dashed #9D7E40
+}
+
 .content {
-    margin-top: 10px
-    }
+  margin-top: 10px
+}
+
 .tabmenu li {
-    margin: 0 1px
-    }
+  margin: 0 1px
+}
+
 .tabmenu li a {
-    background-color: transparent;
-    color: #18262E;
-    font-size: 15px;
-    padding: 1px 4px 2px;
-    cursor: pointer;
-    -webkit-border-top-right-radius: 0px;
-    -webkit-border-top-left-radius: 0px;
-    -moz-border-radius-topright: 0px;
-    -moz-border-radius-topleft: 0px;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px
-    }
+  background-color: transparent;
+  color: #18262E;
+  font-size: 15px;
+  padding: 1px 4px 2px;
+  cursor: pointer;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px
+}
+
 .tabmenu li.selected a {
-    background-color: transparent;
-    color: #fff;
-    border: none
-    }
-.tabmenu li a:hover, .tabmenu li a:focus {
-    background-color: #6097CB;
-    color: #d5cd72;
-    border: none
-    }
+  background-color: transparent;
+  color: #fff;
+  border: none
+}
+
+.tabmenu li a:hover,
+.tabmenu li a:focus {
+  background-color: #6097CB;
+  color: #d5cd72;
+  border: none
+}
 
 .tabmenu {
-    margin: 5px 0 0px -20px !important;
-    padding-bottom: 0px
-    text-transform: uppercase;
-    }
+  margin: 5px 0 0px -20px !important;
+  padding-bottom: 0px text-transform: uppercase;
+}
 
 
 
@@ -231,92 +283,114 @@ font-weight: bold;
 
 
 /* ===== Table formatting ===== */
+
 .md table {
-    border: 2px solid #fff;
-    box-shadow: 0 0 5px #ccc;
-    margin: 1px 0 1px 0;
-    position: relative;
-    left: 1px
-    }
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px #ccc;
+  margin: 1px 0 1px 0;
+  position: relative;
+  left: 1px
+}
+
 .titlebox .md table {
-    width: 99%
-    }
+  width: 99%
+}
+
 .md table th {
-    background: #303030; 
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    border-right: 1px solid #525252;
-    color: #fafafa;
-    font-weight: bold;
-    padding: .5em;
-    text-align: center;
-    text-shadow: 1px 1px 0 #2f2f2f;
-    font-size: 10px
-    }
+  background: #303030;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: 1px solid #525252;
+  color: #fafafa;
+  font-weight: bold;
+  padding: .5em;
+  text-align: center;
+  text-shadow: 1px 1px 0 #2f2f2f;
+  font-size: 10px
+}
+
 .md table th a {
-    color: #363636
+  color: #363636
 }
 
 
 /* === Formatting === */
+
 .md table td {
-    font-size: 10px;
-    border: none;
-    padding: .3em;
-    vertical-align: middle
-    }
-.md table td a {
-    color: #27262c !important;
-    font-weight: normal
-    }
-.md table td a:hover {
-    color: #fff !important;
-    text-decoration: underline
-    }
-/* === Alternate row colors === */
-.md tr:nth-of-type(odd) {
-    background: #fff;
-    color: #363636
-    }
-.md tr:nth-of-type(even) {
-    background: #e3e3e3;
-    color: #363636
-    }
-/* === Alternate channel color === */
-.md tr:nth-of-type(odd) td:nth-of-type(7) {
-    background: #eee
-    }
-.md tr:nth-of-type(even) td:nth-of-type(7) {
-    background: #ccc
-    }
-/* === Hover color === */
-.md tr:hover {
-    background: #a0cdff !important;
-    cursor: default
-    }
-.md tr:hover td:nth-of-type(7) {
-    background: #396 !important;
-    cursor: default
-    }
-
-
-
-/*Sidebar*/
-
-/*Sidebar*/
-/*********sidebar image*****300by400****/
-/* === start: rotating banner === */
-div.side div.spacer:nth-of-type(1){
-    padding-top: 400px; /*Change "400px" to the height to the height of your image*/
+  font-size: 10px;
+  border: none;
+  padding: .3em;
+  vertical-align: middle
 }
-/*Optional- adds a caption under that image*/
-div.side div.spacer:nth-of-type(1):before{
-    display:block;
-    margin-top: 50px;
-    width: 300px;
 
-} 
+.md table td a {
+  color: #27262c !important;
+  font-weight: normal
+}
+
+.md table td a:hover {
+  color: #fff !important;
+  text-decoration: underline
+}
+
+/* === Alternate row colors === */
+
+.md tr:nth-of-type(odd) {
+  background: #fff;
+  color: #363636
+}
+
+.md tr:nth-of-type(even) {
+  background: #e3e3e3;
+  color: #363636
+}
+
+/* === Alternate channel color === */
+
+.md tr:nth-of-type(odd) td:nth-of-type(7) {
+  background: #eee
+}
+
+.md tr:nth-of-type(even) td:nth-of-type(7) {
+  background: #ccc
+}
+
+/* === Hover color === */
+
+.md tr:hover {
+  background: #a0cdff !important;
+  cursor: default
+}
+
+.md tr:hover td:nth-of-type(7) {
+  background: #396 !important;
+  cursor: default
+}
+
+
+
+/*Sidebar*/
+
+/*Sidebar*/
+
+/*********sidebar image*****300by400****/
+
+/* === start: rotating banner === */
+
+div.side div.spacer:nth-of-type(1) {
+  padding-top: 400px;
+  /*Change "400px" to the height to the height of your image*/
+}
+
+/*Optional- adds a caption under that image*/
+
+div.side div.spacer:nth-of-type(1):before {
+  display: block;
+  margin-top: 50px;
+  width: 300px;
+
+}
 
 .side > .spacer:after {
   content: "";
@@ -340,23 +414,27 @@ div.side div.spacer:nth-of-type(1):before{
   opacity: 1;
   z-index: 1;
   background-image: url(%%dockalplay400%%);
-  content: 
+  content:
 }
+
 .side > .spacer:nth-child(4):after {
   background-image: url(%%fontana400%%);
   -webkit-animation-name: banner2;
   animation-name: banner2;
 }
+
 .side > .spacer:nth-child(3):after {
   background-image: url(%%blakeopener400%%);
   -webkit-animation-name: banner3;
   animation-name: banner3;
 }
+
 .side > .spacer:nth-child(2):after {
   background-image: url(%%dockal400%%);
   -webkit-animation-name: banner4;
   animation-name: banner4;
 }
+
 .side > .spacer:nth-child(1):after {
   background-image: url(%%accam400%%);
   -webkit-animation-name: banner5;
@@ -364,237 +442,400 @@ div.side div.spacer:nth-of-type(1):before{
 }
 
 @keyframes banner1 {
-  16%{opacity:1} 20%{opacity:0;z-index:1} 21%{z-index:0} 95%{z-index:0} 96%{opacity:0;z-index:1}
+  16% {
+    opacity: 1
+  }
+  20% {
+    opacity: 0;
+    z-index: 1
+  }
+  21% {
+    z-index: 0
+  }
+  95% {
+    z-index: 0
+  }
+  96% {
+    opacity: 0;
+    z-index: 1
+  }
 }
+
 @keyframes banner2 {
-  16%{opacity:0;z-index:1} 20%{opacity:1} 36%{opacity:1} 40%{opacity:0;z-index:1} 41%{z-index:0}
+  16% {
+    opacity: 0;
+    z-index: 1
+  }
+  20% {
+    opacity: 1
+  }
+  36% {
+    opacity: 1
+  }
+  40% {
+    opacity: 0;
+    z-index: 1
+  }
+  41% {
+    z-index: 0
+  }
 }
+
 @keyframes banner3 {
-  36%{opacity:0;z-index:1} 40%{opacity:1} 56%{opacity:1} 60%{opacity:0;z-index:1} 61%{z-index:0}
+  36% {
+    opacity: 0;
+    z-index: 1
+  }
+  40% {
+    opacity: 1
+  }
+  56% {
+    opacity: 1
+  }
+  60% {
+    opacity: 0;
+    z-index: 1
+  }
+  61% {
+    z-index: 0
+  }
 }
+
 @keyframes banner4 {
-  56%{opacity:0;z-index:1} 60%{opacity:1} 76%{opacity:1} 80%{opacity:0;z-index:1} 81%{z-index:0}
+  56% {
+    opacity: 0;
+    z-index: 1
+  }
+  60% {
+    opacity: 1
+  }
+  76% {
+    opacity: 1
+  }
+  80% {
+    opacity: 0;
+    z-index: 1
+  }
+  81% {
+    z-index: 0
+  }
 }
+
 @keyframes banner5 {
-  1%{z-index:0} 76%{opacity:0;z-index:1} 80%{opacity:1} 96%{opacity:1} 100%{opacity:0;z-index:1}
+  1% {
+    z-index: 0
+  }
+  76% {
+    opacity: 0;
+    z-index: 1
+  }
+  80% {
+    opacity: 1
+  }
+  96% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+    z-index: 1
+  }
 }
 
 @-webkit-keyframes banner1 {
-  16%{opacity:1} 20%{opacity:0;z-index:1} 21%{z-index:0} 95%{z-index:0} 96%{opacity:0;z-index:1}
+  16% {
+    opacity: 1
+  }
+  20% {
+    opacity: 0;
+    z-index: 1
+  }
+  21% {
+    z-index: 0
+  }
+  95% {
+    z-index: 0
+  }
+  96% {
+    opacity: 0;
+    z-index: 1
+  }
 }
+
 @-webkit-keyframes banner2 {
-  16%{opacity:0;z-index:1} 20%{opacity:1} 36%{opacity:1} 40%{opacity:0;z-index:1} 41%{z-index:0}
+  16% {
+    opacity: 0;
+    z-index: 1
+  }
+  20% {
+    opacity: 1
+  }
+  36% {
+    opacity: 1
+  }
+  40% {
+    opacity: 0;
+    z-index: 1
+  }
+  41% {
+    z-index: 0
+  }
 }
+
 @-webkit-keyframes banner3 {
-  36%{opacity:0;z-index:1} 40%{opacity:1} 56%{opacity:1} 60%{opacity:0;z-index:1} 61%{z-index:0}
+  36% {
+    opacity: 0;
+    z-index: 1
+  }
+  40% {
+    opacity: 1
+  }
+  56% {
+    opacity: 1
+  }
+  60% {
+    opacity: 0;
+    z-index: 1
+  }
+  61% {
+    z-index: 0
+  }
 }
+
 @-webkit-keyframes banner4 {
-  56%{opacity:0;z-index:1} 60%{opacity:1} 76%{opacity:1} 80%{opacity:0;z-index:1} 81%{z-index:0}
+  56% {
+    opacity: 0;
+    z-index: 1
+  }
+  60% {
+    opacity: 1
+  }
+  76% {
+    opacity: 1
+  }
+  80% {
+    opacity: 0;
+    z-index: 1
+  }
+  81% {
+    z-index: 0
+  }
 }
+
 @-webkit-keyframes banner5 {
-  1%{z-index:0} 76%{opacity:0;z-index:1} 80%{opacity:1} 96%{opacity:1} 100%{opacity:0;z-index:1}
+  1% {
+    z-index: 0
+  }
+  76% {
+    opacity: 0;
+    z-index: 1
+  }
+  80% {
+    opacity: 1
+  }
+  96% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+    z-index: 1
+  }
 }
 
 /* ==== end: rotating banner ==== */
+
 .side {
-	margin-top: 0px;
-	padding-top: 0px;
-	padding-left: 10px;
-        padding-right: 10px;
-        margin-right: 0px;
-	width: 299px;
-	border-left: #E1E1E1 solid 1px;
-	background-color: #f5f5f5;
-        padding: 8px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 0px;
+  width: 299px;
+  border-left: #E1E1E1 solid 1px;
+  background-color: #f5f5f5;
+  padding: 8px;
 }
 
 
 /* PRETTY SUBMIT LINKS by /u/RainbowCrash*/
-.morelink
-{
-    font-weight:normal;
-    letter-spacing:0;
-    background:#021f42;
-    border: none;
-    -moz-border-radius:2px;
-    -webkit-border-radius:2px;
-    -o-border-radius:2px;
-    -ms-border-radius:2px;
-    -khtml-border-radius:2px;
-    border-radius:2px;
-    height: 30px;
-    line-height: 30px;
-    overflow: hidden;
-    color: white;
+
+.morelink {
+  font-weight: normal;
+  letter-spacing: 0;
+  background: #021f42;
+  border: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  color: white;
 }
 
-.morelink:hover
-{
-    background: #5087bf;
-    background-color: #5087bf;
-    border-color: #5087bf;
+.morelink:hover {
+  background: #5087bf;
+  background-color: #5087bf;
+  border-color: #5087bf;
 }
 
-.morelink .nub 
-{
-    display: none;
+.morelink .nub {
+  display: none;
 }
 
-.morelink 
-{
-    color: #fff; 
-    font-family:Verdana, Arial, sans-serif; 
-    font-size:16px; 
-    width: 145px;
+.morelink {
+  color: #fff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  width: 145px;
 }
 
-.morelink a, .morelink a:hover
-{
-    color: white;
+.morelink a,
+.morelink a:hover {
+  color: white;
 }
 
-.sidebox.submit-link .morelink::before 
-{
-    display: block;
-    clear: none;
-    content: "Submit a Link";
-    font-size: 95%;
+.sidebox.submit-link .morelink::before {
+  display: block;
+  clear: none;
+  content: "Submit a Link";
+  font-size: 95%;
 }
 
-.sidebox.submit-text .morelink::before 
-{
-    display: block;
-    clear: none;
-    content: "Submit a Self Post";
-    font-size: 90%;
+.sidebox.submit-text .morelink::before {
+  display: block;
+  clear: none;
+  content: "Submit a Self Post";
+  font-size: 90%;
 }
 
-.sidebox.submit .morelink a 
-{
-    position: absolute;
-    top: 0;
-    padding-left: 1000px;
-    font-size: 0px;
-    text-align: right;
-    color: #56a6f7;
+.sidebox.submit .morelink a {
+  position: absolute;
+  top: 0;
+  padding-left: 1000px;
+  font-size: 0px;
+  text-align: right;
+  color: #56a6f7;
 }
 
 .sidebox.submit.submit-link {
-    width: 150px;
+  width: 150px;
 }
 
-.sidebox.submit.submit-text
-{
-    margin-top: -42px;
-    margin-left: 153px;
+.sidebox.submit.submit-text {
+  margin-top: -42px;
+  margin-left: 153px;
 }
 
-.sidebox.create 
-{
-    display: none;
+.sidebox.create {
+  display: none;
 }
 
-.sidebox.submit.disabled 
-{
-    display: none;
+.sidebox.submit.disabled {
+  display: none;
 }
 
 /* NIGHTMODE FIXES */
-.res-nightmode .sidebox.submit.submit-text
-{
-    background: none !important;
-    margin-top: -45px;
-    margin-left: 153px;
+
+.res-nightmode .sidebox.submit.submit-text {
+  background: none !important;
+  margin-top: -45px;
+  margin-left: 153px;
 }
 
-.res-nightmode .sidebox 
-{
-    padding-left: 0px !important;
-    border: 2px solid #151515 !important;
+.res-nightmode .sidebox {
+  padding-left: 0px !important;
+  border: 2px solid #151515 !important;
 }
 
-.res-nightmode .morelink 
-{
-     height: 29px !important;
+.res-nightmode .morelink {
+  height: 29px !important;
 }
 
-.res-nightmode .morelink
-{
-    background:rgb(39, 63, 87) !important;
+.res-nightmode .morelink {
+  background: rgb(39, 63, 87) !important;
 }
 
-.res-nightmode .morelink:hover
-{
-    background: #449ef8 !important;
-    background-color: #9edbf8 !important;
-    border-color: #9edbf8 !important;
+.res-nightmode .morelink:hover {
+  background: #449ef8 !important;
+  background-color: #9edbf8 !important;
+  border-color: #9edbf8 !important;
 }
+
 /* END NIGHTMODE FIX */
+
 /* END PRETTY SUBMIT LINKS */
-
-
-
-
-
-
-
 
 /***** Collapsible menu *****/
 
 .titlebox .md h5 {
-    color: #021f42;
-    background-color: #f5f5f5;
-    font-size: medium;
-    border-left: 10px solid #4D6277;
-    line-height: 30px;
-    margin: 0;
-    text-indent: 10px;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.24);
-    
+  color: #021f42;
+  background-color: #f5f5f5;
+  font-size: medium;
+  border-left: 10px solid #4D6277;
+  line-height: 30px;
+  margin: 0;
+  text-indent: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
+
 }
+
 .titlebox .md h5 + ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-height: 0;
-    overflow: hidden;
-    -webkit-transition: 500ms max-height ease-out;
-    transition: 500ms max-height ease-out;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: 500ms max-height ease-out;
+  transition: 500ms max-height ease-out;
 }
+
 .titlebox .md h5:hover + ul,
 .titlebox .md h5 + ul:hover {
-    max-height: 300px;
+  max-height: 300px;
 }
+
 .titlebox .md h5 + ul li {
-    background-color: #f2f2f2;
-    color: #000;
-    padding: 5px 3px 5px 13px;
-    border-bottom: 0px solid #CCC;
-    margin: 0;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 5px 3px 5px 13px;
+  border-bottom: 0px solid #CCC;
+  margin: 0;
 }
+
 .titlebox .md h5 + ul li:hover {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
+
 .titlebox .md h5 + ul li a {
-    color: #4F8EF7;
+  color: #4F8EF7;
 }
+
 .titlebox .md h5 + ul li:hover {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 
-.side table { background: #f2f2f2; }
-.side table thead { background: silver; }
+.side table {
+  background: #f2f2f2;
+}
+
+.side table thead {
+  background: silver;
+}
 
 
 /******LINK COLOR********/
 
-#siteTable div.thing a.title { 
-     color: #18262E; } 
+#siteTable div.thing a.title {
+  color: #18262E;
+}
 
 #siteTable div.thing a.title:visited {
-     color: #5087bf
-     }
+  color: #5087bf
+}
 
 
 
@@ -604,21 +845,34 @@ div.side div.spacer:nth-of-type(1):before{
 
 /*******karma score********/
 
-.likes .score.likes {color: #18262E}
-
-.dislikes .score.dislikes {color:#6097CB}
-
-.likes div.score.likes {color:#18262E}
-
-.dislikes div.score.dislikes {color:#6097CB}
-
-
-
-.arrow.upmod { 
- background-image:url(%%arrow-dark-up%%);background-position: 0 0;background-repeat: no-repeat;
+.likes .score.likes {
+  color: #18262E
 }
-.arrow.downmod { 
- background-image:url(%%arrow-blue-down%%);background-position: 0 0;background-repeat: no-repeat;
+
+.dislikes .score.dislikes {
+  color: #6097CB
+}
+
+.likes div.score.likes {
+  color: #18262E
+}
+
+.dislikes div.score.dislikes {
+  color: #6097CB
+}
+
+
+
+.arrow.upmod {
+  background-image: url(%%arrow-dark-up%%);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.arrow.downmod {
+  background-image: url(%%arrow-blue-down%%);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 
@@ -629,675 +883,678 @@ div.side div.spacer:nth-of-type(1):before{
 
 /*******userbar*******/
 
-#header-bottom-right *{color:#021f42!important}
+#header-bottom-right * {
+  color: #021f42!important
+}
 
 /****FLAIR******/
 
 .linkflair-one .linkflairlabel {
-    background-color: #6097CB;
-    color: #fff;
-    font-size: 10px;
-font-weight: bold;
-    border-color: #18262E;
-    border-width: 1px;
-    border-radius: 3px;
-    width: auto !important;
-    max-width: 70em !important;
-    }
+  background-color: #6097CB;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  border-color: #18262E;
+  border-width: 1px;
+  border-radius: 3px;
+  width: auto !important;
+  max-width: 70em !important;
+}
 
 .linkflair-two .linkflairlabel {
-    background-color: #9D7E40;
-    color: #fff;
-    font-size: 10px;
-font-weight: bold;
-    border-color: #18262E;
-    border-width: 1px;
-    border-radius: 3px;
-    width: auto !important;
-    max-width: 70em !important;
-    }
+  background-color: #9D7E40;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  border-color: #18262E;
+  border-width: 1px;
+  border-radius: 3px;
+  width: auto !important;
+  max-width: 70em !important;
+}
 
 .linkflair-three .linkflairlabel {
-    background-color: #18262E;
-    color: #fff;
-    font-size: 10px;
-font-weight: bold;
-    border-color: #fff;
-    border-width: 1px;
-    border-radius: 3px;
-    width: auto !important;
-    max-width: 70em !important;
-    }
+  background-color: #18262E;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 3px;
+  width: auto !important;
+  max-width: 70em !important;
+}
 
 .linkflair-four .linkflairlabel {
-    background-color: #fff;
-    color: #18262E;
-    font-size: 10px;
-font-weight: bold;
-    border-color: #18262E;
-    border-width: 1px;
-    border-radius: 3px;
-    width: auto !important;
-    max-width: 70em !important;
-    }
+  background-color: #fff;
+  color: #18262E;
+  font-size: 10px;
+  font-weight: bold;
+  border-color: #18262E;
+  border-width: 1px;
+  border-radius: 3px;
+  width: auto !important;
+  max-width: 70em !important;
+}
 
 .linkflair-five .linkflairlabel {
-    background-color: #18262E;
-    color: #9D7E40;
-    font-size: 10px;
-font-weight: bold;
-    border-color: #fff;
-    border-width: 1px;
-    border-radius: 3px;
-    width: auto !important;
-    max-width: 70em !important;
-    }
+  background-color: #18262E;
+  color: #9D7E40;
+  font-size: 10px;
+  font-weight: bold;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 3px;
+  width: auto !important;
+  max-width: 70em !important;
+}
 
 
 
 
 .flairselector .customizer {
-display: none !important;
+  display: none !important;
 }
 
 .flair {
-    background: url(%%spritesheet%%) no-repeat -9999px;
-    border: 0;
-    padding: 0;
+  background: url(%%spritesheet%%) no-repeat -9999px;
+  border: 0;
+  padding: 0;
 }
 
 .flair-4LeafClover {
-    width: 28px;
-    height: 30px;
-    background-position: 0 0;
+  width: 28px;
+  height: 30px;
+  background-position: 0 0;
 }
 
 .flair-6CaseyRed {
-    width: 15px;
-    height: 31px;
-    background-position: 0 -30px;
+  width: 15px;
+  height: 31px;
+  background-position: 0 -30px;
 }
 
 .flair-76ers {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -61px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -61px;
 }
 
 .flair-B {
-    width: 18px;
-    height: 31px;
-    background-position: 0 -91px;
+  width: 18px;
+  height: 31px;
+  background-position: 0 -91px;
 }
 
 .flair-BIMBOLOGOWBEAR {
-    width: 44px;
-    height: 31px;
-    background-position: 0 -122px;
+  width: 44px;
+  height: 31px;
+  background-position: 0 -122px;
 }
 
 .flair-BSFCUSL {
-    width: 24px;
-    height: 31px;
-    background-position: 0 -153px;
+  width: 24px;
+  height: 31px;
+  background-position: 0 -153px;
 }
 
 .flair-BearFight {
-    width: 44px;
-    height: 31px;
-    background-position: 0 -184px;
+  width: 44px;
+  height: 31px;
+  background-position: 0 -184px;
 }
 
 .flair-BearFightofWFC {
-    width: 30px;
-    height: 31px;
-    background-position: 0 -215px;
+  width: 30px;
+  height: 31px;
+  background-position: 0 -215px;
 }
 
 .flair-BethlehemSteel {
-    width: 31px;
-    height: 31px;
-    background-position: 0 -246px;
+  width: 31px;
+  height: 31px;
+  background-position: 0 -246px;
 }
 
 .flair-Bimbo {
-    width: 81px;
-    height: 31px;
-    background-position: 0 -277px;
+  width: 81px;
+  height: 31px;
+  background-position: 0 -277px;
 }
 
 .flair-Bridge {
-    width: 241px;
-    height: 45px;
-    background-position: 0 -308px;
+  width: 241px;
+  height: 45px;
+  background-position: 0 -308px;
 }
 
 .flair-BrotherlyGame {
-    width: 31px;
-    height: 31px;
-    background-position: 0 -353px;
+  width: 31px;
+  height: 31px;
+  background-position: 0 -353px;
 }
 
 .flair-BullBusters {
-    width: 34px;
-    height: 31px;
-    background-position: 0 -384px;
+  width: 34px;
+  height: 31px;
+  background-position: 0 -384px;
 }
 
 .flair-Colorado {
-    width: 20px;
-    height: 30px;
-    background-position: 0 -415px;
+  width: 20px;
+  height: 30px;
+  background-position: 0 -415px;
 }
 
 .flair-Columbus {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -445px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -445px;
 }
 
 .flair-DCUnited {
-    width: 22px;
-    height: 30px;
-    background-position: 0 -475px;
+  width: 22px;
+  height: 30px;
+  background-position: 0 -475px;
 }
 
 .flair-DOOPBlack {
-    width: 66px;
-    height: 31px;
-    background-position: 0 -505px;
+  width: 66px;
+  height: 31px;
+  background-position: 0 -505px;
 }
 
 .flair-DOOPDarkBlue {
-    width: 66px;
-    height: 31px;
-    background-position: 0 -536px;
+  width: 66px;
+  height: 31px;
+  background-position: 0 -536px;
 }
 
 .flair-DOOPGold {
-    width: 66px;
-    height: 31px;
-    background-position: 0 -567px;
+  width: 66px;
+  height: 31px;
+  background-position: 0 -567px;
 }
 
 .flair-DOOPLightBlue {
-    width: 67px;
-    height: 32px;
-    background-position: 0 -598px;
+  width: 67px;
+  height: 32px;
+  background-position: 0 -598px;
 }
 
 .flair-DeadBull {
-    width: 26px;
-    height: 31px;
-    background-position: 0 -630px;
+  width: 26px;
+  height: 31px;
+  background-position: 0 -630px;
 }
 
 .flair-DemonBimboBear {
-    width: 24px;
-    height: 31px;
-    background-position: 0 -661px;
+  width: 24px;
+  height: 31px;
+  background-position: 0 -661px;
 }
 
 .flair-DogFishHead {
-    width: 54px;
-    height: 30px;
-    background-position: 0 -692px;
+  width: 54px;
+  height: 30px;
+  background-position: 0 -692px;
 }
 
 .flair-Eagles {
-    width: 44px;
-    height: 30px;
-    background-position: 0 -722px;
+  width: 44px;
+  height: 30px;
+  background-position: 0 -722px;
 }
 
 .flair-Edu {
-    width: 28px;
-    height: 30px;
-    background-position: 0 -752px;
+  width: 28px;
+  height: 30px;
+  background-position: 0 -752px;
 }
 
 .flair-FCDallas {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -782px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -782px;
 }
 
 .flair-FightinFranklin {
-    width: 38px;
-    height: 31px;
-    background-position: 0 -812px;
+  width: 38px;
+  height: 31px;
+  background-position: 0 -812px;
 }
 
 .flair-FlagArgentina {
-    width: 48px;
-    height: 30px;
-    background-position: 0 -843px;
+  width: 48px;
+  height: 30px;
+  background-position: 0 -843px;
 }
 
 .flair-FlagCameroon {
-    width: 48px;
-    height: 30px;
-    background-position: 0 -873px;
+  width: 48px;
+  height: 30px;
+  background-position: 0 -873px;
 }
 
 .flair-FlagJamaica {
-    width: 49px;
-    height: 31px;
-    background-position: 0 -903px;
+  width: 49px;
+  height: 31px;
+  background-position: 0 -903px;
 }
 
 .flair-FlagSierraLeone {
-    width: 48px;
-    height: 30px;
-    background-position: 0 -934px;
+  width: 48px;
+  height: 30px;
+  background-position: 0 -934px;
 }
 
 .flair-FlagVenezuela {
-    width: 48px;
-    height: 30px;
-    background-position: 0 -964px;
+  width: 48px;
+  height: 30px;
+  background-position: 0 -964px;
 }
 
 .flair-Franklin {
-    width: 22px;
-    height: 31px;
-    background-position: 0 -994px;
+  width: 22px;
+  height: 31px;
+  background-position: 0 -994px;
 }
 
 .flair-Grateful-Ben {
-    width: 31px;
-    height: 31px;
-    background-position: 0 -1025px;
+  width: 31px;
+  height: 31px;
+  background-position: 0 -1025px;
 }
 
 .flair-HCI {
-    width: 47px;
-    height: 31px;
-    background-position: 0 -1056px;
+  width: 47px;
+  height: 31px;
+  background-position: 0 -1056px;
 }
 
 .flair-Houston {
-    width: 35px;
-    height: 30px;
-    background-position: 0 -1087px;
+  width: 35px;
+  height: 30px;
+  background-position: 0 -1087px;
 }
 
 .flair-JimCurtain {
-    width: 18px;
-    height: 29px;
-    background-position: 0 -1117px;
+  width: 18px;
+  height: 29px;
+  background-position: 0 -1117px;
 }
 
 .flair-LAGalaxy {
-    width: 24px;
-    height: 30px;
-    background-position: 0 -1146px;
+  width: 24px;
+  height: 30px;
+  background-position: 0 -1146px;
 }
 
 .flair-LV16 {
-    width: 51px;
-    height: 32px;
-    background-position: 0 -1176px;
+  width: 51px;
+  height: 32px;
+  background-position: 0 -1176px;
 }
 
 .flair-LeToux {
-    width: 41px;
-    height: 30px;
-    background-position: 0 -1208px;
+  width: 41px;
+  height: 30px;
+  background-position: 0 -1208px;
 }
 
 .flair-LibertyBellBlue {
-    width: 31px;
-    height: 38px;
-    background-position: 0 -1238px;
+  width: 31px;
+  height: 38px;
+  background-position: 0 -1238px;
 }
 
 .flair-LibertyBellGold {
-    width: 31px;
-    height: 38px;
-    background-position: 0 -1276px;
+  width: 31px;
+  height: 38px;
+  background-position: 0 -1276px;
 }
 
 .flair-Logo {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -1314px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -1314px;
 }
 
 .flair-Logo2 {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -1344px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -1344px;
 }
 
 .flair-LoveParkBlue {
-    width: 31px;
-    height: 30px;
-    background-position: 0 -1374px;
+  width: 31px;
+  height: 30px;
+  background-position: 0 -1374px;
 }
 
 .flair-LoveParkGold {
-    width: 31px;
-    height: 30px;
-    background-position: 0 -1404px;
+  width: 31px;
+  height: 30px;
+  background-position: 0 -1404px;
 }
 
 .flair-MBolhi {
-    width: 22px;
-    height: 30px;
-    background-position: 0 -1434px;
+  width: 22px;
+  height: 30px;
+  background-position: 0 -1434px;
 }
 
 .flair-MLSlogoGeneric {
-    width: 30px;
-    height: 31px;
-    background-position: 0 -1464px;
+  width: 30px;
+  height: 31px;
+  background-position: 0 -1464px;
 }
 
 .flair-Montreal {
-    width: 28px;
-    height: 30px;
-    background-position: 0 -1495px;
+  width: 28px;
+  height: 30px;
+  background-position: 0 -1495px;
 }
 
 .flair-NERevs {
-    width: 46px;
-    height: 30px;
-    background-position: 0 -1525px;
+  width: 46px;
+  height: 30px;
+  background-position: 0 -1525px;
 }
 
 .flair-NYCFC {
-    width: 31px;
-    height: 30px;
-    background-position: 0 -1555px;
+  width: 31px;
+  height: 30px;
+  background-position: 0 -1555px;
 }
 
 .flair-NYRB {
-    width: 38px;
-    height: 30px;
-    background-position: 0 -1585px;
+  width: 38px;
+  height: 30px;
+  background-position: 0 -1585px;
 }
 
 .flair-Orlando {
-    width: 26px;
-    height: 30px;
-    background-position: 0 -1615px;
+  width: 26px;
+  height: 30px;
+  background-position: 0 -1615px;
 }
 
 .flair-Philadelphia3rdLogo {
-    width: 35px;
-    height: 31px;
-    background-position: 0 -1645px;
+  width: 35px;
+  height: 31px;
+  background-position: 0 -1645px;
 }
 
 .flair-PhiladelphiaAtoms {
-    width: 34px;
-    height: 31px;
-    background-position: 0 -1676px;
+  width: 34px;
+  height: 31px;
+  background-position: 0 -1676px;
 }
 
 .flair-PhiladelphiaFury {
-    width: 36px;
-    height: 31px;
-    background-position: 0 -1707px;
+  width: 36px;
+  height: 31px;
+  background-position: 0 -1707px;
 }
 
 .flair-PhiladelphiaKixx {
-    width: 44px;
-    height: 31px;
-    background-position: 0 -1738px;
+  width: 44px;
+  height: 31px;
+  background-position: 0 -1738px;
 }
 
 .flair-Phillies {
-    width: 32px;
-    height: 30px;
-    background-position: 0 -1769px;
+  width: 32px;
+  height: 30px;
+  background-position: 0 -1769px;
 }
 
 .flair-Portland {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -1799px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -1799px;
 }
 
 .flair-RSL {
-    width: 23px;
-    height: 30px;
-    background-position: 0 -1829px;
+  width: 23px;
+  height: 30px;
+  background-position: 0 -1829px;
 }
 
 .flair-ReadingUnited {
-    width: 30px;
-    height: 31px;
-    background-position: 0 -1859px;
+  width: 30px;
+  height: 31px;
+  background-position: 0 -1859px;
 }
 
 .flair-SOB {
-    width: 31px;
-    height: 31px;
-    background-position: 0 -1890px;
+  width: 31px;
+  height: 31px;
+  background-position: 0 -1890px;
 }
 
 .flair-SOBBlackBlue {
-    width: 28px;
-    height: 29px;
-    background-position: 0 -1921px;
+  width: 28px;
+  height: 29px;
+  background-position: 0 -1921px;
 }
 
 .flair-SOBChecker {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -1950px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -1950px;
 }
 
 .flair-SOBMLSLogo {
-    width: 30px;
-    height: 31px;
-    background-position: 0 -1980px;
+  width: 30px;
+  height: 31px;
+  background-position: 0 -1980px;
 }
 
 .flair-SOBYards {
-    width: 25px;
-    height: 31px;
-    background-position: 0 -2011px;
+  width: 25px;
+  height: 31px;
+  background-position: 0 -2011px;
 }
 
 .flair-SOBYellowBlue {
-    width: 28px;
-    height: 29px;
-    background-position: 0 -2042px;
+  width: 28px;
+  height: 29px;
+  background-position: 0 -2042px;
 }
 
 .flair-SOBtextBlack {
-    width: 71px;
-    height: 32px;
-    background-position: 0 -2071px;
+  width: 71px;
+  height: 32px;
+  background-position: 0 -2071px;
 }
 
 .flair-SOBtextBlue {
-    width: 71px;
-    height: 32px;
-    background-position: 0 -2103px;
+  width: 71px;
+  height: 32px;
+  background-position: 0 -2103px;
 }
 
 .flair-SOBtextYellow {
-    width: 71px;
-    height: 32px;
-    background-position: 0 -2135px;
+  width: 71px;
+  height: 32px;
+  background-position: 0 -2135px;
 }
 
 .flair-SanJose {
-    width: 24px;
-    height: 30px;
-    background-position: 0 -2167px;
+  width: 24px;
+  height: 30px;
+  background-position: 0 -2167px;
 }
 
 .flair-Sapong {
-    width: 20px;
-    height: 31px;
-    background-position: 0 -2197px;
+  width: 20px;
+  height: 31px;
+  background-position: 0 -2197px;
 }
 
 .flair-Seattle {
-    width: 20px;
-    height: 29px;
-    background-position: 0 -2228px;
+  width: 20px;
+  height: 29px;
+  background-position: 0 -2228px;
 }
 
 .flair-SnakeBlack {
-    width: 35px;
-    height: 31px;
-    background-position: 0 -2257px;
+  width: 35px;
+  height: 31px;
+  background-position: 0 -2257px;
 }
 
 .flair-SnakeBlue {
-    width: 35px;
-    height: 31px;
-    background-position: 0 -2288px;
+  width: 35px;
+  height: 31px;
+  background-position: 0 -2288px;
 }
 
 .flair-SnakeGold {
-    width: 35px;
-    height: 31px;
-    background-position: 0 -2319px;
+  width: 35px;
+  height: 31px;
+  background-position: 0 -2319px;
 }
 
 .flair-SnakeRed {
-    width: 35px;
-    height: 31px;
-    background-position: 0 -2350px;
+  width: 35px;
+  height: 31px;
+  background-position: 0 -2350px;
 }
 
 .flair-Soul {
-    width: 33px;
-    height: 30px;
-    background-position: 0 -2381px;
+  width: 33px;
+  height: 30px;
+  background-position: 0 -2381px;
 }
 
 .flair-SportingKC {
-    width: 27px;
-    height: 30px;
-    background-position: 0 -2411px;
+  width: 27px;
+  height: 30px;
+  background-position: 0 -2411px;
 }
 
 .flair-Toronto {
-    width: 32px;
-    height: 30px;
-    background-position: 0 -2441px;
+  width: 32px;
+  height: 30px;
+  background-position: 0 -2441px;
 }
 
 .flair-Union3rdKit {
-    width: 22px;
-    height: 31px;
-    background-position: 0 -2471px;
+  width: 22px;
+  height: 31px;
+  background-position: 0 -2471px;
 }
 
 .flair-UnionAway {
-    width: 24px;
-    height: 30px;
-    background-position: 0 -2502px;
+  width: 24px;
+  height: 30px;
+  background-position: 0 -2502px;
 }
 
 .flair-UnionChecker {
-    width: 30px;
-    height: 30px;
-    background-position: 0 -2532px;
+  width: 30px;
+  height: 30px;
+  background-position: 0 -2532px;
 }
 
 .flair-UnionHome {
-    width: 24px;
-    height: 31px;
-    background-position: 0 -2562px;
+  width: 24px;
+  height: 31px;
+  background-position: 0 -2562px;
 }
 
 .flair-UnionMLSLogo {
-    width: 30px;
-    height: 31px;
-    background-position: 0 -2593px;
+  width: 30px;
+  height: 31px;
+  background-position: 0 -2593px;
 }
 
 .flair-Whitecaps {
-    width: 23px;
-    height: 30px;
-    background-position: 0 -2624px;
+  width: 23px;
+  height: 30px;
+  background-position: 0 -2624px;
 }
 
 .flair-chicago {
-    width: 31px;
-    height: 30px;
-    background-position: 0 -2654px;
+  width: 31px;
+  height: 30px;
+  background-position: 0 -2654px;
 }
 
 .flair-flagBosniaandHerzegovina {
-    width: 45px;
-    height: 30px;
-    background-position: 0 -2684px;
+  width: 45px;
+  height: 30px;
+  background-position: 0 -2684px;
 }
 
 .flair-flagBrazil {
-    width: 45px;
-    height: 30px;
-    background-position: 0 -2714px;
+  width: 45px;
+  height: 30px;
+  background-position: 0 -2714px;
 }
 
 .flair-flagFrance {
-    width: 45px;
-    height: 30px;
-    background-position: 0 -2744px;
+  width: 45px;
+  height: 30px;
+  background-position: 0 -2744px;
 }
 
 .flair-flagPortugal {
-    width: 45px;
-    height: 30px;
-    background-position: 0 -2774px;
+  width: 45px;
+  height: 30px;
+  background-position: 0 -2774px;
 }
 
 .flair-flagSwitzerland {
-    width: 45px;
-    height: 30px;
-    background-position: 0 -2804px;
+  width: 45px;
+  height: 30px;
+  background-position: 0 -2804px;
 }
 
 .flair-flagUSA {
-    width: 45px;
-    height: 30px;
-    background-position: 0 -2834px;
+  width: 45px;
+  height: 30px;
+  background-position: 0 -2834px;
 }
 
 .flair-flyers {
-    width: 43px;
-    height: 30px;
-    background-position: 0 -2864px;
+  width: 43px;
+  height: 30px;
+  background-position: 0 -2864px;
 }
 
 
 /******** side spacing *************/
+
 html {
-      background-image:url(%%NavigationBar%%);
-      background-color:#6097CB;
-      background-repeat:repeat-x;
-      padding: 0  8px;
+  background-image: url(%%NavigationBar%%);
+  background-color: #6097CB;
+  background-repeat: repeat-x;
+  padding: 0 8px;
 }
 
 
 /******** sidebar Images *************/
 
 a[href="/W"]:after {
-    content: url(%%W%%);
-    pointer-events: none;
-    cursor: default;
+  content: url(%%W%%);
+  pointer-events: none;
+  cursor: default;
 }
 
 a[href="/D"]:after {
-    content: url(%%D%%);
-    pointer-events: none;
-    cursor: default;
+  content: url(%%D%%);
+  pointer-events: none;
+  cursor: default;
 }
 
 a[href="/L"]:after {
-    content: url(%%L%%);
-    pointer-events: none;
-    cursor: default;
+  content: url(%%L%%);
+  pointer-events: none;
+  cursor: default;
 }
 
 
@@ -1307,33 +1564,47 @@ a[href="/L"]:after {
 /*************** Shakey Text ******************/
 
 /*GORDON SHAKEY TEXT*/
+
 a[href="/doop"] {
-color: #000000;
-text-transform: uppercase;
-display: block;
-font-size: 15px;
-animation: intensify .1s steps(5) infinite;
--webkit-animation: intensify .1s steps(5) infinite;
--moz-animation: intensify .1s steps(5) infinite;
+  color: #000000;
+  text-transform: uppercase;
+  display: block;
+  font-size: 15px;
+  animation: intensify .1s steps(5) infinite;
+  -webkit-animation: intensify .1s steps(5) infinite;
+  -moz-animation: intensify .1s steps(5) infinite;
 }
 
 @keyframes intensify {
- 0% { margin-left: 0px; }
- 100% { margin-left: 2px; }
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 2px;
+  }
 }
 
 @-webkit-keyframes intensify {
- 0% { margin-left: 0px; }
- 100% { margin-left: 2px; }
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 2px;
+  }
 }
 
 @-moz-keyframes intensify {
- 0% { margin-left: 0px; }
- 100% { margin-left: 2px; }
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 2px;
+  }
 }
 
 
-.side .md h6 { /* list button */
+.side .md h6 {
+  /* list button */
   position: relative;
   margin: 0;
   padding: 5px;
@@ -1344,13 +1615,15 @@ animation: intensify .1s steps(5) infinite;
   text-decoration: none;
   border-left: 10px solid #4D6277;
   margin-bottom: 5px;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
   color: #021f42;
   font-size: medium;
-  font-weight:bold;
+  font-weight: bold;
   text-indent: 5px;
 }
-.side .md h6:after { /* "click to expand" text */
+
+.side .md h6:after {
+  /* "click to expand" text */
   content: "click to expand";
   position: absolute;
   top: 5px;
@@ -1359,18 +1632,26 @@ animation: intensify .1s steps(5) infinite;
   font-weight: normal;
   color: gray;
 }
-.side .md h6 + ul { /* styles (+ hides) the list */
+
+.side .md h6 + ul {
+  /* styles (+ hides) the list */
   position: relative;
   margin: -35px 0 10px;
   padding: 28px 0 0;
   list-style: none;
   display: none;
 }
-.side .md h6:active + ul, /* displays list when button is clicked */
-.side .md h6 + ul:hover { /* and when hovering over expanded list */
+
+.side .md h6:active + ul,
+/* displays list when button is clicked */
+
+.side .md h6 + ul:hover {
+  /* and when hovering over expanded list */
   display: block;
 }
-.side .md h6 + ul li { /* styles list items */
+
+.side .md h6 + ul li {
+  /* styles list items */
   position: relative;
   padding-top: 10px;
   padding-left: 5px;
