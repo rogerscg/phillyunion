@@ -1,4 +1,4 @@
-/* Key Colours:
+/* Key Colors:
 
 Union Dark Blue: #18262E;
 Union Light Blue: #6097CB;
@@ -10,7 +10,7 @@ Side Bar: #28292D
 */
 
 
-/* ===== Link Flair Colors ===== */
+/* Link Flair Colors */
 
 a[href*="free_talk_friday"].title:link {
     color: #b39700;
@@ -140,7 +140,7 @@ font-weight: bold;
 
 
 #header {
-    background-image: url(%%NavigationBar2%%);
+    background-image: url(%%NavigationBar%%);
     background-color:#4f91cd;
     background-repeat: no;
     height: 200px;
@@ -155,13 +155,13 @@ font-weight: bold;
 	margin-left: 10px;
 	width: 350px;
 	height: 50px;
-	background-image: url(%%rphillyuniontextgoldnew%%);
+	background-image: url(%%rPhillyUnionGold%%);
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 }
 
 #header-bottom-left .redditname a:hover {
-	background-image: url(%%rphillyuniontextbluenew%%);
+	background-image: url(%%rPhillyUnionBlue%%);
 }
 
 #header-bottom-left .redditname {
@@ -615,7 +615,7 @@ div.side div.spacer:nth-of-type(1):before{
 
 
 .arrow.upmod { 
- background-image:url(%%arrow-dark-up2%%);background-position: 0 0;background-repeat: no-repeat;
+ background-image:url(%%arrow-dark-up%%);background-position: 0 0;background-repeat: no-repeat;
 }
 .arrow.downmod { 
  background-image:url(%%arrow-blue-down%%);background-position: 0 0;background-repeat: no-repeat;
@@ -1273,7 +1273,7 @@ display: none !important;
 
 /******** side spacing *************/
 html {
-      background-image:url(%%NavigationBar2%%);
+      background-image:url(%%NavigationBar%%);
       background-color:#6097CB;
       background-repeat:repeat-x;
       padding: 0  8px;
