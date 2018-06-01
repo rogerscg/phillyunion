@@ -899,64 +899,41 @@ div.side div.spacer:nth-of-type(1):before {
 
 /****FLAIR******/
 
+.linkflairlabel {
+  font-size: 10px;
+  border: none;
+  width: auto!important;
+  max-width: 70em!important;
+  padding: 2px 10px;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-bottom: -1px;
+}
+
 .linkflair-one .linkflairlabel {
   background-color: #6097CB;
-  color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  border-color: #18262E;
-  border-width: 1px;
-  border-radius: 3px;
-  width: auto !important;
-  max-width: 70em !important;
+  color: #fff; 
 }
 
 .linkflair-two .linkflairlabel {
   background-color: #9D7E40;
   color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  border-color: #18262E;
-  border-width: 1px;
-  border-radius: 3px;
-  width: auto !important;
-  max-width: 70em !important;
 }
 
 .linkflair-three .linkflairlabel {
   background-color: #18262E;
   color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  border-color: #fff;
-  border-width: 1px;
-  border-radius: 3px;
-  width: auto !important;
-  max-width: 70em !important;
 }
 
 .linkflair-four .linkflairlabel {
   background-color: #fff;
   color: #18262E;
-  font-size: 10px;
-  font-weight: bold;
-  border-color: #18262E;
-  border-width: 1px;
-  border-radius: 3px;
-  width: auto !important;
-  max-width: 70em !important;
+  border: 1px solid #18262E;
 }
 
 .linkflair-five .linkflairlabel {
   background-color: #18262E;
   color: #9D7E40;
-  font-size: 10px;
-  font-weight: bold;
-  border-color: #fff;
-  border-width: 1px;
-  border-radius: 3px;
-  width: auto !important;
-  max-width: 70em !important;
 }
 
 
