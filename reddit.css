@@ -405,6 +405,15 @@ div.side div.spacer:nth-of-type(1) {
   padding-top: 415px;
 }
 
+.side .spacer:nth-of-type(2) {
+  margin: 5px;
+}
+
+.side .spacer:nth-of-type(3) {
+  margin: 0;
+}
+
+
 /*Optional- adds a caption under that image*/
 
 div.side div.spacer:nth-of-type(1):before {
@@ -683,7 +692,7 @@ div.side div.spacer:nth-of-type(1):before {
 .morelink {
   font-weight: normal;
   letter-spacing: 0;
-  background: #021f42;
+  background: #4a8ac8;
   border: none;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -698,9 +707,8 @@ div.side div.spacer:nth-of-type(1):before {
 }
 
 .morelink:hover {
-  background: #5087bf;
-  background-color: #5087bf;
-  border-color: #5087bf;
+  background: #3c71a5;
+  border-color: #2f567d;
 }
 
 .morelink .nub {
@@ -711,7 +719,11 @@ div.side div.spacer:nth-of-type(1):before {
   color: #fff;
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
-  width: 145px;
+  border-radius: 2px;
+  width: 140px;
+  border: #3b6d9e 1px solid;
+  border-bottom-width: 4px;
+  display: inline-block;
 }
 
 .morelink a,
@@ -729,8 +741,8 @@ div.side div.spacer:nth-of-type(1):before {
 .sidebox.submit-text .morelink::before {
   display: block;
   clear: none;
-  content: "Submit a Self Post";
-  font-size: 90%;
+  content: "Submit Text";
+  font-size: 95%;
 }
 
 .sidebox.submit .morelink a {
