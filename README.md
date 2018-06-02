@@ -6,9 +6,11 @@
 * ~~Fix bright yellow links~~
 * ~~Fix tab menu~~
 * ~~Update link flairs~~
+* ~~Convert sidebar to cards~~
+* ~~Convert links to cards~~
+* Convert comments to cards
 * Fix the sidebar hover bar things
 * Center user flairs
-* Give card feel to sidebar, links, comments
 
 ### JS
 * Create/update schedule
