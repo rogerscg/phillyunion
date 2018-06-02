@@ -139,15 +139,19 @@ hr {
 
 
 #search input[type="text"] {
-  bottom: 15px !important;
-  z-index: 100 !important;
-  font-size: 14px !important;
-  border: 2px solid #5087bf!important;
-  margin-top: 0px;
+  bottom: 15px!important;
+  z-index: 100!important;
+  font-size: 14px!important;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 25px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, .15);
+  padding: 10px 20px;
 }
 
-
-
+#search input[type=submit] {
+  margin-left: -30px;
+}
 
 
 /*****replace "readers" with something else*****/
